@@ -83,6 +83,49 @@
 // cities.splice(4, 0, "Quetta");// this adds Quetta to index 4 of cities array
 // console.log(cities); // this will be the result [ 'Karachi', 'Lahore', 'Islamabad', 'Peshawar', 'Quetta' ]
 
+// let numbers:any[] = [1,2,3,4];
+// let characters = ['a','b','c','d'];
+// console.log(numbers.concat(characters));//this concatenates the character array with numbers one.
+// let newnumbers = numbers.map
+// const numbers: number[] = [1, 2, 3];
+// const squaredNumbers = numbers.map(num => num ** 2);
+// console.log(squaredNumbers); // Output: [1, 4, 9]
+// let marks : number[] = [55,70,75,90];
+// let finalmarks = marks.map(num => +10);//this adds 10 marks to each item on the marks array and saves it to new array i.e final marks.
+// let filteredmarks = marks.filter(num=> num % 2 === 0);
+// console.log(filteredmarks);
+// let sum = marks.reduce((acc,curr)=>acc+curr,0);
+// console.log(sum);
+
+// let a= numbers.push(6); 
+// console.log(a); // this push functions returns prints number of items after addition
+// console.log(numbers);
+// numbers.push("six");
+// console.log(numbers);
+// numbers.pop();
+// let b = numbers.pop();//this pop functions return number of items before popping the last item in the array
+// console.log(b);
+// console.log(numbers);
+
+// console.log(numbers);
+// let c = numbers.shift();//this shift function returns the first item that was deleted 
+// console.log(c);
+// c = numbers.shift();
+// console.log(c);
+// console.log(numbers);
+// let d = numbers.unshift(0);// this unshift function returns number of items after addition
+// console.log(d);
+// console.log(numbers);
+
+// console.log(numbers);
+// numbers.unshift("One");
+// console.log(numbers);
+// let e = numbers.splice(0,2,0);//the splice function returns the items deleted
+// console.log(e);
+// console.log(numbers);
+// let numbers1 = numbers.slice(2,4);
+// console.log(numbers1);
+
 
 // lets make a money pool ballot system (committee)
 // let myParticipats = [];
@@ -179,14 +222,14 @@
 
 // more functions practice
 
-function loancalc(yearlymup:number,yearlyten:number,principal:number){
+// function loancalc(yearlymup:number,yearlyten:number,principal:number){
 
-    let monthlymup = (yearlymup*0.01 / 12);
-    let monthlyten = yearlyten * 12;
-    let monthlyprin = principal / monthlyten;
-    let installment = (monthlymup*monthlyprin)+monthlyprin;
-    return installment;
-}
+//     let monthlymup = (yearlymup*0.01 / 12);
+//     let monthlyten = yearlyten * 12;
+//     let monthlyprin = principal / monthlyten;
+//     let installment = (monthlymup*monthlyprin)+monthlyprin;
+//     return installment;
+// }
 
-let a = loancalc(30,5,1200000);
-console.log(a);
+// let a = loancalc(30,5,1200000);
+// console.log(a);
