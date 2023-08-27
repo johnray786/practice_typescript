@@ -1,0 +1,14 @@
+[
+    {
+        "stdName" : "Hamzah",
+        "Age" : 22,
+        "Grade" : "A"
+    },
+
+    {
+        "stdName" : "Dilawar",
+        "Age" : 22,
+        "Grade" : "A1"
+    }
+
+]

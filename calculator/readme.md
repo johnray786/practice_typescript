@@ -1,0 +1,1 @@
+This is a calculator with each operation performed through functions and modules
